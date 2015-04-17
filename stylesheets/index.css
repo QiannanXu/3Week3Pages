@@ -58,8 +58,9 @@ header .donate a:hover{
 }
 
 .title{
-    height: 500px;
+    padding: 150px 150px;
     position: relative;
+
 }
 
 .title::after{
@@ -80,7 +81,6 @@ header .donate a:hover{
     font-size: 37px;
     text-align: center;
     color: #444444;
-    padding-top: 150px;
 }
 
 .title .role{
@@ -104,7 +104,7 @@ header .donate a:hover{
 }
 
 section{
-    height: 400px;
+    padding: 100px 150px 0px 150px;
 }
 
 .mission{
@@ -116,21 +116,19 @@ section{
     font-size: 30px;
     text-align: center;
     color: #444444;
-    padding-top: 100px;
 }
 
 .mission p{
-    width: 600px;
-    margin: auto;
     font-family: icomoon;
     font-size: 16px;
     text-align: center;
     color: #444444;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
-.mission div{
-    margin-top: 50px;
+.mission .button{
+    padding-top: 50px;
+    padding-bottom: 100px;
     text-align: center;
 }
 
@@ -152,15 +150,16 @@ section{
     background-color: #80C8A2;
 }
 
-.students_left{
-    width: 500px;
-    float: left;
-    margin-top: 60px;
-    margin-left: 200px;
+.students_contents{
+    position: relative;
+}
+
+.students_contents img{
+    position: absolute;
 }
 
 .students_right{
-    margin-right: 200px;
+    padding-left: 330px;
 }
 
 .students_right h2{
@@ -168,7 +167,6 @@ section{
     font-size: 30px;
     text-align: center;
     color: #444444;
-    padding-top: 60px;
 }
 
 .students_right p{
@@ -176,11 +174,12 @@ section{
     font-size: 16px;
     text-align: center;
     color: #444444;
-    margin-top: 60px;
+    padding-top: 50px;
 }
 
-.students_right div{
-    margin-top: 60px;
+.students_right .button{
+    padding-top: 50px;
+    padding-bottom: 100px;
     text-align: center;
 }
 
@@ -202,10 +201,18 @@ section{
     background-color: #FDC250;
 }
 
+.tutors_content{
+    position: relative;
+}
+
+.tutors_content img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
 .tutors_left{
-    /*margin: auto;*/
-    display: inline-block;
-    margin-left: 200px;
+    padding-right: 330px;
 }
 
 .tutors_left h2{
@@ -213,20 +220,20 @@ section{
     font-size: 30px;
     text-align: center;
     color: #444444;
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .tutors_left p{
-    width: 700px;
     font-family: icomoon;
     font-size: 16px;
     text-align: center;
     color: #444444;
-    margin-top: 60px;
+    padding-top: 60px;
 }
 
-.tutors_left div{
-    margin-top: 60px;
+.tutors_left .button{
+    padding-top: 50px;
+    padding-bottom: 100px;
     text-align: center;
 }
 
@@ -244,28 +251,21 @@ section{
     color: crimson;
 }
 
-.tutors_right{
-    /*margin: auto;*/
-    display: inline-block;
-    width: 500px;
-    float: right;
-    margin-top: 60px;
-    margin-left: 200px;
-}
-
 .partners{
     background-color: #6E97C0;
+    padding: 100px 150px 0 150px;
 }
 
-.partners_left{
-    width: 500px;
-    float: left;
-    margin-top: 60px;
-    margin-left: 200px;
+.partners_content{
+    position: relative;
+}
+
+.partners_content img{
+    position: absolute;
 }
 
 .partners_right{
-    margin-right: 200px;
+    padding-left: 330px;
 }
 
 .partners_right h2{
@@ -273,7 +273,6 @@ section{
     font-size: 30px;
     text-align: center;
     color: #444444;
-    padding-top: 60px;
 }
 
 .partners_right p{
@@ -281,11 +280,12 @@ section{
     font-size: 16px;
     text-align: center;
     color: #444444;
-    margin-top: 60px;
+    padding-top: 50px;
 }
 
-.partners_right div{
-    margin-top: 60px;
+.partners_right .button {
+    padding-top: 50px;
+    padding-bottom: 100px;
     text-align: center;
 }
 
@@ -304,7 +304,7 @@ section{
 }
 
 .progress{
-    height: 600px;
+    padding: 100px 150px 0 150px;
     background-color: #FBF8F1;
 }
 
@@ -313,23 +313,23 @@ section{
     font-size: 30px;
     text-align: center;
     color: #444444;
-    padding-top: 100px;
 }
 
 .progress ul{
     text-align: center;
+    padding: 20px;
+    padding-bottom: 80px;
 }
 
 .progress ul li{
     display: inline-block;
-    margin: 30px;
-    margin-top: 80px;
-    padding: 50px;
+    margin: 20px;
+    padding: 30px;
     border: 1px solid #444444;
 }
 
 .progress ul li p{
-    padding-top: 30px;
+    padding: 10px;
     font-family: icomoon;
     font-size:25px;
     color: #444444;
@@ -337,13 +337,12 @@ section{
 
 footer{
     background-color: #444444;
-    height: 60px;
+    padding: 15px 150px 15px 150px;
 }
 
 footer p{
     font-family: icomoon;
-    font-size: 18px;
+    font-size: 16px;
     color: #eeeeee;
     text-align: center;
-    padding-top: 10px;
 }
