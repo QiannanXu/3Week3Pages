@@ -1,0 +1,349 @@
+header{
+    background-color: #FBF8F1;
+    height: 70px;
+    text-align: center;
+}
+header a{
+    margin-left: 30px;
+}
+
+header a img{
+    max-height: 50px;
+}
+
+header ul{
+    height: 70px;
+    display: inline-block;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+@font-face {
+    font-family: icomoon;
+    src: url('fonts/icomoon.ttf'),
+         url('fonts/icomoon.eot');
+}
+
+header ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-family: icomoon;
+    color: darkgray;
+}
+
+header ul li a:hover{
+    color: darksalmon;
+}
+
+header .donate{
+    margin-left: 20px;
+    display: inline-block;
+    font-family: icomoon;
+    font-size: 15px;
+    text-align: center;
+    color: darksalmon;
+}
+
+header .donate a{
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid lightslategray;
+}
+
+header .donate a:hover{
+    color: darksalmon;
+}
+
+.title{
+    height: 500px;
+    position: relative;
+}
+
+.title::after{
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("../images/main.jpg");
+    opacity:0.5;
+}
+
+.title h1{
+    font-family: icomoon;
+    font-size: 37px;
+    text-align: center;
+    color: #444444;
+    padding-top: 150px;
+}
+
+.title .role{
+    font-family: icomoon;
+    font-size: 25px;
+    text-align: center;
+    color: darksalmon;
+    padding-top: 100px;
+}
+
+.title .role a{
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 20px;
+    border: 1px solid #FBF8F1;
+}
+
+.title .role a:hover{
+    background-color: aliceblue;
+    color: crimson;
+}
+
+section{
+    height: 400px;
+}
+
+.mission{
+    background-color: #FBF8F1;
+}
+
+.mission h2{
+    font-family: icomoon;
+    font-size: 30px;
+    text-align: center;
+    color: #444444;
+    padding-top: 100px;
+}
+
+.mission p{
+    width: 600px;
+    margin: auto;
+    font-family: icomoon;
+    font-size: 16px;
+    text-align: center;
+    color: #444444;
+    padding-top: 40px;
+}
+
+.mission div{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mission a{
+    font-family: icomoon;
+    font-size: 18px;
+    color: #666666;
+    text-decoration: none;
+    border: 1px solid #FDC250;
+    padding: 10px 25px;
+    background-color: #FDC250;
+}
+
+.mission a:hover{
+    color: crimson;
+}
+
+.students{
+    background-color: #80C8A2;
+}
+
+.students_left{
+    width: 500px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.students_right{
+    margin-right: 200px;
+}
+
+.students_right h2{
+    font-family: icomoon;
+    font-size: 30px;
+    text-align: center;
+    color: #444444;
+    padding-top: 60px;
+}
+
+.students_right p{
+    font-family: icomoon;
+    font-size: 16px;
+    text-align: center;
+    color: #444444;
+    margin-top: 60px;
+}
+
+.students_right div{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.students_right a{
+    font-family: icomoon;
+    font-size: 18px;
+    color: #666666;
+    text-decoration: none;
+    border: 1px solid #80C8A2;
+    padding: 10px 25px;
+    background-color: #70aaa2;
+}
+
+.students_right a:hover{
+    color: crimson;
+}
+
+.tutors{
+    background-color: #FDC250;
+}
+
+.tutors_left{
+    /*margin: auto;*/
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.tutors_left h2{
+    font-family: icomoon;
+    font-size: 30px;
+    text-align: center;
+    color: #444444;
+    padding-top: 60px;
+}
+
+.tutors_left p{
+    width: 700px;
+    font-family: icomoon;
+    font-size: 16px;
+    text-align: center;
+    color: #444444;
+    margin-top: 60px;
+}
+
+.tutors_left div{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.tutors_left a{
+    font-family: icomoon;
+    font-size: 18px;
+    color: #666666;
+    text-decoration: none;
+    border: 1px solid #80C8A2;
+    padding: 10px 25px;
+    background-color: #70aaa2;
+}
+
+.tutors_left a:hover{
+    color: crimson;
+}
+
+.tutors_right{
+    /*margin: auto;*/
+    display: inline-block;
+    width: 500px;
+    float: right;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.partners{
+    background-color: #6E97C0;
+}
+
+.partners_left{
+    width: 500px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.partners_right{
+    margin-right: 200px;
+}
+
+.partners_right h2{
+    font-family: icomoon;
+    font-size: 30px;
+    text-align: center;
+    color: #444444;
+    padding-top: 60px;
+}
+
+.partners_right p{
+    font-family: icomoon;
+    font-size: 16px;
+    text-align: center;
+    color: #444444;
+    margin-top: 60px;
+}
+
+.partners_right div{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.partners_right a{
+    font-family: icomoon;
+    font-size: 18px;
+    color: #666666;
+    text-decoration: none;
+    border: 1px solid #80C8A2;
+    padding: 10px 25px;
+    background-color: #70aaa2;
+}
+
+.partners_right a:hover{
+    color: crimson;
+}
+
+.progress{
+    height: 600px;
+    background-color: #FBF8F1;
+}
+
+.progress h2{
+    font-family: icomoon;
+    font-size: 30px;
+    text-align: center;
+    color: #444444;
+    padding-top: 100px;
+}
+
+.progress ul{
+    text-align: center;
+}
+
+.progress ul li{
+    display: inline-block;
+    margin: 30px;
+    margin-top: 80px;
+    padding: 50px;
+    border: 1px solid #444444;
+}
+
+.progress ul li p{
+    padding-top: 30px;
+    font-family: icomoon;
+    font-size:25px;
+    color: #444444;
+}
+
+footer{
+    background-color: #444444;
+    height: 60px;
+}
+
+footer p{
+    font-family: icomoon;
+    font-size: 18px;
+    color: #eeeeee;
+    text-align: center;
+    padding-top: 10px;
+}
