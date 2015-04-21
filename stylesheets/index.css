@@ -22,8 +22,8 @@ header ul li{
 
 @font-face {
     font-family: icomoon;
-    src: url('fonts/icomoon.ttf'),
-         url('fonts/icomoon.eot');
+    src: url('../fonts/icomoon.ttf'),
+         url('../fonts/icomoon.eot');
 }
 
 header ul li a{
