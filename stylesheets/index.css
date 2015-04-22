@@ -49,8 +49,10 @@ header .donate{
 header .donate a{
     margin-left: 10px;
     text-decoration: none;
-    padding: 5px;
+    padding: 7px;
+    color: #40424F;
     border: 1px solid lightslategray;
+    border-radius: 5px;
 }
 
 header .donate a:hover{
@@ -80,12 +82,12 @@ header .donate a:hover{
     font-family: icomoon;
     font-size: 37px;
     text-align: center;
-    color: #444444;
+    color: #FFFFFF;
 }
 
 .title .role{
     font-family: icomoon;
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
     color: darksalmon;
     padding-top: 100px;
@@ -96,11 +98,17 @@ header .donate a:hover{
     text-decoration: none;
     padding: 20px;
     border: 1px solid #FBF8F1;
+    border-radius: 5px;
+    color: #FFFFFF;
 }
 
 .title .role a:hover{
     background-color: aliceblue;
     color: crimson;
+}
+
+.title .role .tutor{
+    background-color: #C5C4C4;
 }
 
 section{
@@ -137,9 +145,10 @@ section{
     font-size: 18px;
     color: #666666;
     text-decoration: none;
-    border: 1px solid #FDC250;
+    border: 1px solid #FECC6A;
+    border-radius: 5px;
     padding: 10px 25px;
-    background-color: #FDC250;
+    background-color: #FECC6A;
 }
 
 .mission a:hover{
@@ -147,7 +156,7 @@ section{
 }
 
 .students{
-    background-color: #80C8A2;
+    background-color: #93CFB2;
 }
 
 .students_contents{
@@ -188,7 +197,8 @@ section{
     font-size: 18px;
     color: #666666;
     text-decoration: none;
-    border: 1px solid #80C8A2;
+    border: 1px solid #93CFB2;
+    border-radius: 5px;
     padding: 10px 25px;
     background-color: #70aaa2;
 }
@@ -198,7 +208,7 @@ section{
 }
 
 .tutors{
-    background-color: #FDC250;
+    background-color: #FECC6A;
 }
 
 .tutors_content{
@@ -242,9 +252,10 @@ section{
     font-size: 18px;
     color: #666666;
     text-decoration: none;
-    border: 1px solid #80C8A2;
+    border: 1px solid #E9BB63;
+    border-radius: 5px;
     padding: 10px 25px;
-    background-color: #70aaa2;
+    background-color: #E9BB63;
 }
 
 .tutors_left a:hover{
@@ -252,7 +263,7 @@ section{
 }
 
 .partners{
-    background-color: #6E97C0;
+    background-color: #81A8CA;
     padding: 100px 150px 0 150px;
 }
 
@@ -294,9 +305,10 @@ section{
     font-size: 18px;
     color: #666666;
     text-decoration: none;
-    border: 1px solid #80C8A2;
+    border: 1px solid #6E91B0;
+    border-radius: 5px;
     padding: 10px 25px;
-    background-color: #70aaa2;
+    background-color: #6E91B0;
 }
 
 .partners_right a:hover{
@@ -326,13 +338,31 @@ section{
     margin: 20px;
     padding: 30px;
     border: 1px solid #444444;
+    border-radius: 5px;
 }
 
-.progress ul li p{
+.progress ul li .title{
     padding: 10px;
     font-family: icomoon;
-    font-size:25px;
-    color: #444444;
+    font-size:35px;
+}
+
+.progress ul li .content{
+    padding: 10px;
+    font-family: icomoon;
+    font-size:20px;
+}
+
+.progress .hour-tutored{
+    color: #94CFB2;
+}
+
+.progress .sessions-hosted{
+    color: #FECC6C;
+}
+
+.progress .volunteer-tutors{
+    color: #81A8CA;
 }
 
 footer{

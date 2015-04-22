@@ -23,11 +23,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-pacman:before {
+  content: "\e916";
+}
+
+.icon-Tastemakers:before {
+  content: "\e9a3";
+}
+
 .icon-music:before {
   content: "\e911";
 }
-
-
 
 body{
   background-color: #ffffff;
@@ -37,10 +43,10 @@ body{
 aside{
   width: 300px;
   display: inline-block;
-
-  .icon-Tastemakers:before {
-    content: "\e9a3";
+  .icon-music:before {
+    content: "\e911";
   }
+
 }
 
 section{

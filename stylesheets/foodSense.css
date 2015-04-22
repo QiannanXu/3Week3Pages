@@ -20,27 +20,37 @@
 }
 
 /* line 26, ../sass/foodSense.scss */
+.icon-pacman:before {
+  content: "\e916";
+}
+
+/* line 30, ../sass/foodSense.scss */
+.icon-Tastemakers:before {
+  content: "\e9a3";
+}
+
+/* line 34, ../sass/foodSense.scss */
 .icon-music:before {
   content: "\e911";
 }
 
-/* line 32, ../sass/foodSense.scss */
+/* line 38, ../sass/foodSense.scss */
 body {
   background-color: #ffffff;
   text-align: center;
 }
 
-/* line 37, ../sass/foodSense.scss */
+/* line 43, ../sass/foodSense.scss */
 aside {
   width: 300px;
   display: inline-block;
 }
-/* line 41, ../sass/foodSense.scss */
-aside .icon-Tastemakers:before {
-  content: "\e9a3";
+/* line 46, ../sass/foodSense.scss */
+aside .icon-music:before {
+  content: "\e911";
 }
 
-/* line 46, ../sass/foodSense.scss */
+/* line 52, ../sass/foodSense.scss */
 section {
   width: 700px;
   display: inline-block;
