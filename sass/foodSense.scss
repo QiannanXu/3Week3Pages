@@ -23,28 +23,83 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-pacman:before {
-  content: "\e916";
-}
-
 .icon-Tastemakers:before {
   content: "\e9a3";
 }
 
-.icon-music:before {
-  content: "\e911";
+.icon-Blog:before {
+  content: "\e91f";
+}
+
+.icon-frustrated2:before {
+  content: "\ea00";
+}
+
+.icon-Contribute:before {
+  content: "\e998";
+}
+
+.icon-user:before {
+  content: "\e971";
+}
+
+.icon-twitter:before {
+  content: "\ea91";
+}
+
+.icon-facebook:before {
+  content: "\ea8c";
 }
 
 body{
   background-color: #ffffff;
-  text-align: center;
+  text-align:center;
 }
 
 aside{
-  width: 300px;
+  width: 200px;
   display: inline-block;
-  .icon-music:before {
-    content: "\e911";
+  text-align: left;
+
+  ul{
+    margin: 10px auto;
+    li{
+      height: 35px;
+      text-align: left;
+
+      .row{
+        color: #3BAB98;
+        padding-left: 5px;
+      }
+    }
+  }
+
+  div{
+    margin-top: 20px;
+    .title{
+      padding-bottom: 4px;
+      border-bottom: 1px dashed;
+      text-align: left;
+    }
+
+    .content{
+      padding-top: 10px;
+      line-height: 22px;
+    }
+
+    a{
+      color: #3BAB98;
+    }
+  }
+
+  .link{
+    text-align: left;
+    display: inline-block;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid #E5E5E5;
+    border-radius: 7px;
+    text-decoration: none;
   }
 
 }

@@ -20,37 +20,97 @@
 }
 
 /* line 26, ../sass/foodSense.scss */
-.icon-pacman:before {
-  content: "\e916";
-}
-
-/* line 30, ../sass/foodSense.scss */
 .icon-Tastemakers:before {
   content: "\e9a3";
 }
 
+/* line 30, ../sass/foodSense.scss */
+.icon-Blog:before {
+  content: "\e91f";
+}
+
 /* line 34, ../sass/foodSense.scss */
-.icon-music:before {
-  content: "\e911";
+.icon-frustrated2:before {
+  content: "\ea00";
 }
 
 /* line 38, ../sass/foodSense.scss */
+.icon-Contribute:before {
+  content: "\e998";
+}
+
+/* line 42, ../sass/foodSense.scss */
+.icon-user:before {
+  content: "\e971";
+}
+
+/* line 46, ../sass/foodSense.scss */
+.icon-twitter:before {
+  content: "\ea91";
+}
+
+/* line 50, ../sass/foodSense.scss */
+.icon-facebook:before {
+  content: "\ea8c";
+}
+
+/* line 54, ../sass/foodSense.scss */
 body {
   background-color: #ffffff;
   text-align: center;
 }
 
-/* line 43, ../sass/foodSense.scss */
+/* line 59, ../sass/foodSense.scss */
 aside {
-  width: 300px;
+  width: 200px;
   display: inline-block;
+  text-align: left;
 }
-/* line 46, ../sass/foodSense.scss */
-aside .icon-music:before {
-  content: "\e911";
+/* line 64, ../sass/foodSense.scss */
+aside ul {
+  margin: 10px auto;
+}
+/* line 66, ../sass/foodSense.scss */
+aside ul li {
+  height: 35px;
+  text-align: left;
+}
+/* line 70, ../sass/foodSense.scss */
+aside ul li .row {
+  color: #3BAB98;
+  padding-left: 5px;
+}
+/* line 77, ../sass/foodSense.scss */
+aside div {
+  margin-top: 20px;
+}
+/* line 79, ../sass/foodSense.scss */
+aside div .title {
+  padding-bottom: 4px;
+  border-bottom: 1px dashed;
+  text-align: left;
+}
+/* line 85, ../sass/foodSense.scss */
+aside div .content {
+  padding-top: 10px;
+  line-height: 22px;
+}
+/* line 90, ../sass/foodSense.scss */
+aside div a {
+  color: #3BAB98;
+}
+/* line 95, ../sass/foodSense.scss */
+aside .link {
+  text-align: left;
+  display: inline-block;
+  margin: 10px auto;
+  padding: 5px;
+  border: 1px solid #E5E5E5;
+  border-radius: 7px;
+  text-decoration: none;
 }
 
-/* line 52, ../sass/foodSense.scss */
+/* line 107, ../sass/foodSense.scss */
 section {
   width: 700px;
   display: inline-block;
