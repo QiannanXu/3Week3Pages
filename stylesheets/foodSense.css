@@ -55,51 +55,61 @@
 }
 
 /* line 54, ../sass/foodSense.scss */
+.icon-mail2:before {
+  content: "\ea84";
+}
+
+/* line 58, ../sass/foodSense.scss */
+.icon-connection:before {
+  content: "\e91b";
+}
+
+/* line 62, ../sass/foodSense.scss */
 body {
   background-color: #ffffff;
   text-align: center;
 }
 
-/* line 59, ../sass/foodSense.scss */
+/* line 67, ../sass/foodSense.scss */
 aside {
   width: 200px;
   display: inline-block;
   text-align: left;
 }
-/* line 64, ../sass/foodSense.scss */
+/* line 72, ../sass/foodSense.scss */
 aside ul {
   margin: 10px auto;
 }
-/* line 66, ../sass/foodSense.scss */
+/* line 74, ../sass/foodSense.scss */
 aside ul li {
   height: 35px;
   text-align: left;
 }
-/* line 70, ../sass/foodSense.scss */
+/* line 78, ../sass/foodSense.scss */
 aside ul li .row {
   color: #3BAB98;
   padding-left: 5px;
 }
-/* line 77, ../sass/foodSense.scss */
+/* line 85, ../sass/foodSense.scss */
 aside div {
   margin-top: 20px;
 }
-/* line 79, ../sass/foodSense.scss */
+/* line 87, ../sass/foodSense.scss */
 aside div .title {
   padding-bottom: 4px;
   border-bottom: 1px dashed;
   text-align: left;
 }
-/* line 85, ../sass/foodSense.scss */
+/* line 93, ../sass/foodSense.scss */
 aside div .content {
   padding-top: 10px;
   line-height: 22px;
 }
-/* line 90, ../sass/foodSense.scss */
+/* line 98, ../sass/foodSense.scss */
 aside div a {
   color: #3BAB98;
 }
-/* line 95, ../sass/foodSense.scss */
+/* line 103, ../sass/foodSense.scss */
 aside .link {
   text-align: left;
   display: inline-block;
@@ -110,8 +120,108 @@ aside .link {
   text-decoration: none;
 }
 
-/* line 107, ../sass/foodSense.scss */
+/* line 115, ../sass/foodSense.scss */
 section {
   width: 700px;
   display: inline-block;
+}
+/* line 118, ../sass/foodSense.scss */
+section .cake {
+  text-align: right;
+  height: 350px;
+  background-image: url("../images/foodSense/cake.jpg");
+}
+/* line 123, ../sass/foodSense.scss */
+section .cake .title {
+  padding: 200px 0px 10px 0px;
+}
+/* line 125, ../sass/foodSense.scss */
+section .cake .title span {
+  padding: 10px;
+  background-color: #FFFFFF;
+  font-family: icomoon;
+  font-size: 23px;
+  font-style: italic;
+}
+/* line 133, ../sass/foodSense.scss */
+section .cake .intro {
+  padding-top: 8px;
+}
+/* line 135, ../sass/foodSense.scss */
+section .cake .intro span {
+  color: #FFFFFF;
+  padding: 10px;
+  background-color: #000000;
+  font-family: icomoon;
+  font-size: 15px;
+  font-style: italic;
+}
+/* line 145, ../sass/foodSense.scss */
+section .cake .author {
+  padding-top: 50px;
+}
+/* line 147, ../sass/foodSense.scss */
+section .cake .author span {
+  padding: 7px;
+  background-color: #E7E7E8;
+  font-family: icomoon;
+  font-size: 10px;
+  font-style: italic;
+}
+/* line 158, ../sass/foodSense.scss */
+section .items ul {
+  background-color: #EFF8F7;
+}
+/* line 160, ../sass/foodSense.scss */
+section .items ul li {
+  background-color: #EFF8F7;
+  border-right: 1px solid #dddddd;
+  display: inline-block;
+  width: 171px;
+}
+/* line 165, ../sass/foodSense.scss */
+section .items ul li p {
+  padding-top: 15px;
+  padding-left: 5px;
+  text-align: left;
+  font-size: 20px;
+  color: #63BDAE;
+}
+/* line 172, ../sass/foodSense.scss */
+section .items ul li .info {
+  padding: 10px 0px 12px 5px;
+  font-size: 12px;
+  font-style: italic;
+}
+/* line 181, ../sass/foodSense.scss */
+section .email {
+  margin: 30px auto;
+  border-bottom: 1px dashed #dddddd;
+  border-top: 1px dashed #dddddd;
+}
+/* line 186, ../sass/foodSense.scss */
+section .email .email-left {
+  display: inline-block;
+  width: 60%;
+}
+/* line 189, ../sass/foodSense.scss */
+section .email .email-left span {
+  padding: 10px 0px;
+  display: inline-block;
+}
+/* line 193, ../sass/foodSense.scss */
+section .email .email-left .icon-mail2 {
+  width: 10%;
+}
+/* line 196, ../sass/foodSense.scss */
+section .email .email-left .annotation {
+  width: 88%;
+  text-align: left;
+  font-size: 13px;
+}
+/* line 202, ../sass/foodSense.scss */
+section .email .email-right {
+  display: inline-block;
+  width: 38%;
+  text-align: right;
 }
