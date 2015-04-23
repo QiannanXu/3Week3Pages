@@ -1,68 +1,65 @@
+a{
+    text-decoration: none;
+}
 header{
     background-color: #FBF8F1;
-    height: 70px;
-    text-align: center;
-}
-header a{
-    margin-left: 30px;
+    height: 50px;
 }
 
-header a img{
-    max-height: 50px;
+header .container{
+    width: 80%;
+    margin: 0 auto;
 }
 
-header ul{
-    height: 70px;
+header .logo{
+    background: url("../images/logo.png");
     display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-size: cover;
+    float: left;
 }
 
-header ul li{
+header nav{
     display: inline-block;
+    padding: 0 30px;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    float: left;
 }
 
-@font-face {
-    font-family: icomoon;
-    src: url('../fonts/icomoon.ttf'),
-         url('../fonts/icomoon.eot');
+header nav ul{
 }
 
-header ul li a{
-    text-decoration: none;
-    text-align: center;
-    font-family: icomoon;
-    color: darkgray;
+header nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 50px;
 }
 
-header ul li a:hover{
-    color: darksalmon;
+header nav ul li a{
+    color:#9A999E;
 }
 
 header .donate{
-    margin-left: 20px;
     display: inline-block;
-    font-family: icomoon;
-    font-size: 15px;
-    text-align: center;
-    color: darksalmon;
+    line-height: 50px;
+    padding-left: 10px;
+    float: right;
 }
 
 header .donate a{
-    margin-left: 10px;
-    text-decoration: none;
-    padding: 7px;
-    color: #40424F;
-    border: 1px solid lightslategray;
-    border-radius: 5px;
+    padding: 5px 8px;
+    border: 1px solid #cccccc;
+    border-radius: 7px;
+    color:#9A999E;
 }
 
-header .donate a:hover{
-    color: darksalmon;
-}
 
 .title{
-    padding: 150px 150px;
+    padding: 0 150px;
     position: relative;
-
+    min-height: 300px;
 }
 
 .title::after{
@@ -75,10 +72,12 @@ header .donate a:hover{
     height: 100%;
     z-index: -1;
     background-image: url("../images/main.jpg");
+    background-size: cover;
     opacity:0.5;
 }
 
 .title h1{
+    padding-top: 200px;
     font-family: icomoon;
     font-size: 37px;
     text-align: center;
@@ -90,13 +89,13 @@ header .donate a:hover{
     font-size: 22px;
     text-align: center;
     color: darksalmon;
-    padding-top: 100px;
+    padding: 100px 0 200px 0;
 }
 
 .title .role a{
     margin-right: 20px;
     text-decoration: none;
-    padding: 20px;
+    padding: 15px 20px;
     border: 1px solid #FBF8F1;
     border-radius: 5px;
     color: #FFFFFF;
@@ -108,11 +107,11 @@ header .donate a:hover{
 }
 
 .title .role .tutor{
-    background-color: #C5C4C4;
+    background-color: #dfdfdf;
 }
 
 section{
-    padding: 100px 150px 0px 150px;
+    padding: 0px 250px;
 }
 
 .mission{
@@ -120,6 +119,7 @@ section{
 }
 
 .mission h2{
+    padding-top: 100px;
     font-family: icomoon;
     font-size: 30px;
     text-align: center;
@@ -128,14 +128,14 @@ section{
 
 .mission p{
     font-family: icomoon;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     color: #444444;
     padding-top: 50px;
 }
 
 .mission .button{
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 100px;
     text-align: center;
 }
@@ -161,6 +161,7 @@ section{
 
 .students_contents{
     position: relative;
+    padding-top: 100px;
 }
 
 .students_contents img{
@@ -175,15 +176,16 @@ section{
     font-family: icomoon;
     font-size: 30px;
     text-align: center;
-    color: #444444;
+    color: #F0F4EC;
 }
 
 .students_right p{
     font-family: icomoon;
     font-size: 16px;
     text-align: center;
-    color: #444444;
-    padding-top: 50px;
+    color: #F0F4EC;
+    line-height: 25px;
+    padding-top: 60px;
 }
 
 .students_right .button{
@@ -195,7 +197,7 @@ section{
 .students_right a{
     font-family: icomoon;
     font-size: 18px;
-    color: #666666;
+    color: #F0F4EC;
     text-decoration: none;
     border: 1px solid #93CFB2;
     border-radius: 5px;
@@ -213,11 +215,12 @@ section{
 
 .tutors_content{
     position: relative;
+    padding-top: 100px;
 }
 
 .tutors_content img{
     position: absolute;
-    top: 0px;
+    top: 100px;
     right: 0px;
 }
 
@@ -229,20 +232,20 @@ section{
     font-family: icomoon;
     font-size: 30px;
     text-align: center;
-    color: #444444;
-    padding-top: 50px;
+    color: #F0F4EC;
 }
 
 .tutors_left p{
     font-family: icomoon;
     font-size: 16px;
     text-align: center;
-    color: #444444;
+    color: #F0F4EC;
     padding-top: 60px;
+    line-height: 25px;
 }
 
 .tutors_left .button{
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 100px;
     text-align: center;
 }
@@ -250,7 +253,7 @@ section{
 .tutors_left a{
     font-family: icomoon;
     font-size: 18px;
-    color: #666666;
+    color: #F0F4EC;
     text-decoration: none;
     border: 1px solid #E9BB63;
     border-radius: 5px;
@@ -264,11 +267,11 @@ section{
 
 .partners{
     background-color: #81A8CA;
-    padding: 100px 150px 0 150px;
 }
 
 .partners_content{
     position: relative;
+    padding-top: 100px;
 }
 
 .partners_content img{
@@ -283,15 +286,16 @@ section{
     font-family: icomoon;
     font-size: 30px;
     text-align: center;
-    color: #444444;
+    color: #F0F4EC;
 }
 
 .partners_right p{
     font-family: icomoon;
     font-size: 16px;
     text-align: center;
-    color: #444444;
-    padding-top: 50px;
+    color: #F0F4EC;
+    padding-top: 60px;
+    line-height: 25px;
 }
 
 .partners_right .button {
@@ -303,7 +307,7 @@ section{
 .partners_right a{
     font-family: icomoon;
     font-size: 18px;
-    color: #666666;
+    color: #F0F4EC;
     text-decoration: none;
     border: 1px solid #6E91B0;
     border-radius: 5px;
@@ -316,8 +320,8 @@ section{
 }
 
 .progress{
-    padding: 100px 150px 0 150px;
     background-color: #FBF8F1;
+    padding: 100px 150px;
 }
 
 .progress h2{
@@ -330,7 +334,6 @@ section{
 .progress ul{
     text-align: center;
     padding: 20px;
-    padding-bottom: 80px;
 }
 
 .progress ul li{
@@ -341,7 +344,7 @@ section{
     border-radius: 5px;
 }
 
-.progress ul li .title{
+.progress ul li .number{
     padding: 10px;
     font-family: icomoon;
     font-size:35px;
