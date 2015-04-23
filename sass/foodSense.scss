@@ -64,10 +64,21 @@ body{
   text-align:center;
 }
 
+a{
+  text-decoration: none;
+}
+
 aside{
   width: 200px;
   display: inline-block;
   text-align: left;
+  
+  .logo{
+    width: 135px;
+    height: 122px;
+    display: inline-block;
+    background: url("../images/foodSense/logo.png");
+  }
 
   ul{
     margin: 10px auto;
@@ -113,7 +124,8 @@ aside{
 }
 
 section{
-  width: 700px;
+  margin-left: 20px;
+  width: 900px;
   display: inline-block;
   .cake{
     text-align: right;
@@ -204,9 +216,89 @@ section{
       width: 38%;
       text-align: right;
     }
-
   }
 
+
+  .foods{
+    .food-item{
+      float: left;
+      display: inline-block;
+      width: 21%;
+      margin: 10px;
+
+      .image{
+        img{
+          padding: 10px;
+          border: 1px solid #eeeeee;
+        }
+      }
+
+      .introduction{
+        padding: 20px 0px;
+        .title{
+          color: #63BDAE;
+          font-size: 17px;
+          text-align: left;
+          line-height: 20px;
+        }
+
+        .info{
+          padding: 10px 0;
+          font-size: 15px;
+          text-align: left;
+          line-height: 19px;
+        }
+
+        .link{
+          padding: 10px 0;
+          font-size: 15px;
+          text-align: left;
+          color: #aaaaaa;
+          a{
+            text-decoration: none;
+            color: #63BDAE;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+footer{
+  .container{
+    border-top: 1px solid #dddddd;
+    width: 1100px;
+    margin: 0 auto;
+
+    .license{
+      padding-top: 15px;
+      float: left;
+      ul{
+        li{
+          display: inline;
+          padding: 0px 10px;
+          border-right: 1px solid #dddddd;
+          a{
+            color: #63BDAE;
+          }
+        }
+      }
+
+      p{
+        padding-top: 5px;
+        color: #999999;
+      }
+    }
+
+    .link{
+      padding-top: 15px;
+      float: right;
+      span{
+        color: #999999;
+      }
+    }
+  }
 }
 
 
