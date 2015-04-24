@@ -1,6 +1,9 @@
 a{
     text-decoration: none;
 }
+a:hover{
+    color: #333333;
+}
 header{
     background-color: #FBF8F1;
     height: 50px;
@@ -55,6 +58,11 @@ header .donate a{
     color:#9A999E;
 }
 
+header .donate a:hover{
+    background-color: #dddddd;
+    color: #333333;
+}
+
 
 .title{
     padding: 0 150px;
@@ -103,7 +111,7 @@ header .donate a{
 
 .title .role a:hover{
     background-color: aliceblue;
-    color: crimson;
+    color: #333333;
 }
 
 .title .role .tutor{
@@ -152,7 +160,7 @@ section{
 }
 
 .mission a:hover{
-    color: crimson;
+    color: #FFFFFF;
 }
 
 .students{
@@ -206,7 +214,7 @@ section{
 }
 
 .students_right a:hover{
-    color: crimson;
+    color: #333333;
 }
 
 .tutors{
@@ -262,7 +270,7 @@ section{
 }
 
 .tutors_left a:hover{
-    color: crimson;
+    color: #333333;
 }
 
 .partners{
@@ -316,7 +324,7 @@ section{
 }
 
 .partners_right a:hover{
-    color: crimson;
+    color: #333333;
 }
 
 .progress{
