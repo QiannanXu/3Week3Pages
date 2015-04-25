@@ -1,0 +1,88 @@
+/* line 2, ../sass/login.scss */
+header {
+  height: 70px;
+  background-color: #FFFFFF;
+}
+/* line 5, ../sass/login.scss */
+header .content {
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 8, ../sass/login.scss */
+header .content .logo {
+  display: inline-block;
+  height: 70px;
+  background: url("../images/login/logo.jpg");
+  width: 240px;
+  background-size: cover;
+}
+
+/* line 18, ../sass/login.scss */
+.container {
+  width: 80%;
+  min-height: 570px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+/* line 23, ../sass/login.scss */
+.container .login-pictures {
+  display: inline-block;
+  background: url("../images/login/finance.jpg");
+  background-size: cover;
+  width: 500px;
+  height: 382px;
+}
+/* line 29, ../sass/login.scss */
+.container .login-pictures h2 {
+  margin: 0 0 20px 0;
+  color: #6F95C8;
+  font-size: 27px;
+}
+/* line 35, ../sass/login.scss */
+.container .login-content {
+  display: inline-block;
+  float: right;
+  margin-right: 50px;
+  width: 334px;
+  height: 382px;
+  border: 1px solid #a0b1c4;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+/* line 45, ../sass/login.scss */
+.container .login-content .login-head {
+  height: 50px;
+}
+/* line 47, ../sass/login.scss */
+.container .login-content .login-head p {
+  background-color: #EFF4FA;
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1px solid #a0b1c4;
+}
+/* line 57, ../sass/login.scss */
+.container .login-content .login-form {
+  padding: 30px 15px;
+}
+/* line 59, ../sass/login.scss */
+.container .login-content .login-form label {
+  margin-bottom: 10px;
+}
+/* line 62, ../sass/login.scss */
+.container .login-content .login-form .login-submit {
+  margin-top: 40px;
+}
+
+/* line 69, ../sass/login.scss */
+footer {
+  background-color: #EFF4FA;
+  height: 50px;
+}
+/* line 72, ../sass/login.scss */
+footer p {
+  line-height: 50px;
+  margin: 0 auto;
+  width: 80%;
+}

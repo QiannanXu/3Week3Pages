@@ -1,0 +1,78 @@
+
+header{
+  height: 70px;
+  background-color: #FFFFFF;
+  .content{
+    width: 80%;
+    margin: 0 auto;
+    .logo{
+      display: inline-block;
+      height: 70px;
+      background: url("../images/login/logo.jpg");
+      width: 240px;
+      background-size: cover;
+    }
+  }
+}
+
+.container{
+  width: 80%;
+  min-height: 570px;
+  margin: 0 auto;
+  padding-top: 70px;
+  .login-pictures{
+    display: inline-block;
+    background: url("../images/login/finance.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 382px;
+    h2{
+      margin: 0 0 20px 0;
+      color: #6F95C8;
+      font-size: 27px;
+    }
+  }
+  .login-content{
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    width: 334px;
+    height: 382px;
+    border: 1px solid #a0b1c4;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+
+    .login-head{
+      height: 50px;
+      p{
+        background-color: #EFF4FA;
+        line-height: 50px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        border-bottom: 1px solid #a0b1c4;
+      }
+    }
+
+    .login-form{
+      padding: 30px 15px;
+      label{
+        margin-bottom: 10px;
+      }
+      .login-submit{
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+footer{
+  background-color: #EFF4FA;
+  height: 50px;
+  p{
+    line-height: 50px;
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
