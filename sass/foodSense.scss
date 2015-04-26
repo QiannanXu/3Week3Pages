@@ -204,27 +204,33 @@ section{
 
   .email{
     margin: 30px auto;
+    height: 50px;
     border-bottom: 1px dashed #dddddd;
     border-top: 1px dashed #dddddd;
 
     .email-left{
       display: inline-block;
+      line-height: 25px;
+      height: 50px;
       width: 60%;
-      span{
-        padding: 10px 0px;
-        display: inline-block;
-      }
       .icon-mail2{
+        line-height: 50px;
         width: 10%;
+        display: inline-block;
+        float: left;
       }
       .annotation{
         width: 88%;
+        display: inline-block;
+        height: 50px;
         text-align: left;
         font-size: 13px;
       }
     }
     .email-right{
       display: inline-block;
+      float: right;
+      line-height: 50px;
       width: 38%;
       text-align: right;
     }
@@ -234,11 +240,13 @@ section{
   .foods{
     .food-item{
       float: left;
+      width: 205px;
       display: inline-block;
-      width: 21%;
       margin: 10px;
 
       .image{
+        width: 204px;
+        height: 150px;
         img{
           padding: 10px;
           border: 1px solid #eeeeee;

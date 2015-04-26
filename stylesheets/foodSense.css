@@ -224,112 +224,122 @@ section .items ul::after {
 /* line 205, ../sass/foodSense.scss */
 section .email {
   margin: 30px auto;
+  height: 50px;
   border-bottom: 1px dashed #dddddd;
   border-top: 1px dashed #dddddd;
 }
-/* line 210, ../sass/foodSense.scss */
+/* line 211, ../sass/foodSense.scss */
 section .email .email-left {
   display: inline-block;
+  line-height: 25px;
+  height: 50px;
   width: 60%;
 }
-/* line 213, ../sass/foodSense.scss */
-section .email .email-left span {
-  padding: 10px 0px;
-  display: inline-block;
-}
-/* line 217, ../sass/foodSense.scss */
+/* line 216, ../sass/foodSense.scss */
 section .email .email-left .icon-mail2 {
+  line-height: 50px;
   width: 10%;
+  display: inline-block;
+  float: left;
 }
-/* line 220, ../sass/foodSense.scss */
+/* line 222, ../sass/foodSense.scss */
 section .email .email-left .annotation {
   width: 88%;
+  display: inline-block;
+  height: 50px;
   text-align: left;
   font-size: 13px;
 }
-/* line 226, ../sass/foodSense.scss */
+/* line 230, ../sass/foodSense.scss */
 section .email .email-right {
   display: inline-block;
+  float: right;
+  line-height: 50px;
   width: 38%;
   text-align: right;
 }
-/* line 235, ../sass/foodSense.scss */
+/* line 241, ../sass/foodSense.scss */
 section .foods .food-item {
   float: left;
+  width: 205px;
   display: inline-block;
-  width: 21%;
   margin: 10px;
 }
-/* line 242, ../sass/foodSense.scss */
+/* line 247, ../sass/foodSense.scss */
+section .foods .food-item .image {
+  width: 204px;
+  height: 150px;
+}
+/* line 250, ../sass/foodSense.scss */
 section .foods .food-item .image img {
   padding: 10px;
   border: 1px solid #eeeeee;
 }
-/* line 248, ../sass/foodSense.scss */
+/* line 256, ../sass/foodSense.scss */
 section .foods .food-item .introduction {
   padding: 20px 0px;
 }
-/* line 250, ../sass/foodSense.scss */
+/* line 258, ../sass/foodSense.scss */
 section .foods .food-item .introduction .title {
   color: #63BDAE;
   font-size: 17px;
   text-align: left;
   line-height: 20px;
 }
-/* line 257, ../sass/foodSense.scss */
+/* line 265, ../sass/foodSense.scss */
 section .foods .food-item .introduction .info {
   padding: 10px 0;
   font-size: 15px;
   text-align: left;
   line-height: 19px;
 }
-/* line 264, ../sass/foodSense.scss */
+/* line 272, ../sass/foodSense.scss */
 section .foods .food-item .introduction .link {
   padding: 10px 0;
   font-size: 15px;
   text-align: left;
   color: #aaaaaa;
 }
-/* line 269, ../sass/foodSense.scss */
+/* line 277, ../sass/foodSense.scss */
 section .foods .food-item .introduction .link a {
   text-decoration: none;
   color: #63BDAE;
 }
 
-/* line 281, ../sass/foodSense.scss */
+/* line 289, ../sass/foodSense.scss */
 footer .content {
   border-top: 1px solid #dddddd;
   width: 1100px;
   margin: 0 auto;
 }
-/* line 286, ../sass/foodSense.scss */
+/* line 294, ../sass/foodSense.scss */
 footer .content .license {
   padding-top: 15px;
   float: left;
 }
-/* line 290, ../sass/foodSense.scss */
+/* line 298, ../sass/foodSense.scss */
 footer .content .license ul li {
   display: inline;
   padding: 0px 10px;
   border-right: 1px solid #dddddd;
 }
-/* line 294, ../sass/foodSense.scss */
+/* line 302, ../sass/foodSense.scss */
 footer .content .license ul li a {
   color: #63BDAE;
 }
-/* line 300, ../sass/foodSense.scss */
+/* line 308, ../sass/foodSense.scss */
 footer .content .license p {
   padding-top: 5px;
   padding-left: 10px;
   color: #999999;
   text-align: left;
 }
-/* line 308, ../sass/foodSense.scss */
+/* line 316, ../sass/foodSense.scss */
 footer .content .link {
   padding-top: 15px;
   float: right;
 }
-/* line 311, ../sass/foodSense.scss */
+/* line 319, ../sass/foodSense.scss */
 footer .content .link span {
   color: #999999;
 }
