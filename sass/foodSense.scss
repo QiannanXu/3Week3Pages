@@ -90,10 +90,12 @@ aside{
     li{
       height: 35px;
       text-align: left;
-
-      .row{
-        color: #3BAB98;
-        padding-left: 5px;
+      a{
+        color: #000000;
+        .row{
+          color: #3BAB98;
+          padding-left: 5px;
+        }
       }
     }
   }
