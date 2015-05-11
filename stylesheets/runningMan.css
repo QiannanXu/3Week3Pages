@@ -1,0 +1,96 @@
+/* line 2, ../sass/runningMan.scss */
+body a {
+  text-decoration: none;
+  color: #d9534f;
+}
+/* line 6, ../sass/runningMan.scss */
+body a:hover {
+  color: #d9534f;
+}
+/* line 9, ../sass/runningMan.scss */
+body header {
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 12, ../sass/runningMan.scss */
+body header .logo {
+  margin-left: 60px;
+  background: url("../images/week3/logo.jpg");
+  display: inline-block;
+  background-size: cover;
+  width: 80px;
+  height: 60px;
+  float: left;
+}
+/* line 21, ../sass/runningMan.scss */
+body header nav {
+  float: left;
+  margin-left: 30px;
+  display: inline-block;
+}
+/* line 25, ../sass/runningMan.scss */
+body header nav ul {
+  margin: 0 20px;
+}
+/* line 27, ../sass/runningMan.scss */
+body header nav ul li {
+  padding: 0 20px;
+  display: inline-block;
+  line-height: 60px;
+}
+/* line 37, ../sass/runningMan.scss */
+body header .authorize {
+  float: right;
+  display: inline-block;
+  margin-right: 60px;
+}
+/* line 41, ../sass/runningMan.scss */
+body header .authorize a {
+  line-height: 60px;
+  padding: 5px 8px;
+  border: 1px solid #aaaaaa;
+  border-radius: 7px;
+  margin: 0 10px;
+}
+/* line 50, ../sass/runningMan.scss */
+body header::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+/* line 55, ../sass/runningMan.scss */
+body .main {
+  background-image: url("../images/week3/background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  text-align: center;
+}
+/* line 62, ../sass/runningMan.scss */
+body .main h1 {
+  color: #F1F1F1;
+  font-size: 37px;
+  padding-top: 72vh;
+}
+/* line 67, ../sass/runningMan.scss */
+body .main p {
+  color: #F1F1F1;
+  padding-top: 7vh;
+  font-size: 18px;
+}
+/* line 74, ../sass/runningMan.scss */
+body .pictureContainer {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+/* line 79, ../sass/runningMan.scss */
+body .pictureContainer ul li {
+  width: 25%;
+}
+/* line 81, ../sass/runningMan.scss */
+body .pictureContainer ul li .liu {
+  width: 200px;
+  border-radius: 50%;
+}

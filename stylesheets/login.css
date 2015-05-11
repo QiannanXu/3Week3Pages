@@ -9,7 +9,7 @@ header .content {
   margin: 0 auto;
 }
 /* line 8, ../sass/login.scss */
-header .content .logo {
+header .content .main {
   display: inline-block;
   height: 70px;
   background: url("../images/login/logo.jpg");

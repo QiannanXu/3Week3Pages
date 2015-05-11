@@ -14,7 +14,7 @@ header .container{
     margin: 0 auto;
 }
 
-header .logo{
+header .main {
     background: url("../images/logo.png");
     display: inline-block;
     width: 100px;

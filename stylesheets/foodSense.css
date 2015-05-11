@@ -88,11 +88,11 @@ aside {
   float: left;
 }
 /* line 81, ../sass/foodSense.scss */
-aside .logo {
+aside .main {
   width: 135px;
   height: 122px;
   display: inline-block;
-  background: url("../images/foodSense/logo.png");
+  background: url("../images/week2/logo.png");
 }
 /* line 88, ../sass/foodSense.scss */
 aside ul {
@@ -151,7 +151,7 @@ section {
 section .cake {
   text-align: right;
   height: 350px;
-  background-image: url("../images/foodSense/cake.jpg");
+  background-image: url("../images/week2/cake.jpg");
 }
 /* line 141, ../sass/foodSense.scss */
 section .cake .title {
