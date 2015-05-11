@@ -71,7 +71,7 @@ body .main {
 body .main h1 {
   color: #F1F1F1;
   font-size: 37px;
-  padding-top: 72vh;
+  padding-top: 60vh;
 }
 /* line 67, ../sass/runningMan.scss */
 body .main p {
@@ -79,17 +79,24 @@ body .main p {
   padding-top: 7vh;
   font-size: 18px;
 }
-/* line 74, ../sass/runningMan.scss */
+/* line 72, ../sass/runningMan.scss */
+body .main .gotop {
+  padding-top: 20px;
+  color: #F1F1F1;
+  font-size: 30px;
+  cursor: pointer;
+}
+/* line 80, ../sass/runningMan.scss */
 body .pictureContainer {
   width: 80%;
   margin: 0 auto;
   margin-top: 50px;
 }
-/* line 79, ../sass/runningMan.scss */
+/* line 85, ../sass/runningMan.scss */
 body .pictureContainer ul li {
   width: 25%;
 }
-/* line 81, ../sass/runningMan.scss */
+/* line 87, ../sass/runningMan.scss */
 body .pictureContainer ul li .liu {
   width: 200px;
   border-radius: 50%;

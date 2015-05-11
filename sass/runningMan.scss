@@ -62,12 +62,18 @@ body{
     h1{
       color: #F1F1F1;
       font-size: 37px;
-      padding-top: 72vh;
+      padding-top: 60vh;
     }
     p{
       color: #F1F1F1;
       padding-top: 7vh;
       font-size: 18px;
+    }
+    .gotop{
+      padding-top: 20px;
+      color: #F1F1F1;
+      font-size: 30px;
+      cursor: pointer;
     }
   }
 
