@@ -82,10 +82,15 @@ body{
     margin: 0 auto;
     margin-top: 50px;
     ul{
+      padding: 20px 0;
+      text-align: center;
       li{
-        width: 25%;
-        .liu{
+        width: 24%;
+        display: inline-block;
+        padding: 20px 0;
+        .pic {
           width: 200px;
+          height: 200px;
           border-radius: 50%;
         }
       }

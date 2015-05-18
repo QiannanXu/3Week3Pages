@@ -92,12 +92,20 @@ body .pictureContainer {
   margin: 0 auto;
   margin-top: 50px;
 }
-/* line 85, ../sass/runningMan.scss */
-body .pictureContainer ul li {
-  width: 25%;
+/* line 84, ../sass/runningMan.scss */
+body .pictureContainer ul {
+  padding: 20px 0;
+  text-align: center;
 }
 /* line 87, ../sass/runningMan.scss */
-body .pictureContainer ul li .liu {
+body .pictureContainer ul li {
+  width: 24%;
+  display: inline-block;
+  padding: 20px 0;
+}
+/* line 91, ../sass/runningMan.scss */
+body .pictureContainer ul li .pic {
   width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
